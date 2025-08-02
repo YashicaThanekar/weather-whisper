@@ -21,5 +21,9 @@ A simple and clean Weather web app built using HTML, CSS, and JavaScript
 - ->JavaScript (Vanilla)
 - ->OpenWeatherMap API
 
+  **Live Preview**
+[~ Click here to use the Weather-Whisper ~](https://YashicaThanekar.github.io/weather-whisper/
+)
+
 👩‍💻 Author
 **Yashica Thanekar**
