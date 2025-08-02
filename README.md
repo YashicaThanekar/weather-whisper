@@ -1,4 +1,4 @@
-Weather Whisper
+Weather-Whisper
 A simple and clean Weather web app built using HTML, CSS, and JavaScript
 
 
