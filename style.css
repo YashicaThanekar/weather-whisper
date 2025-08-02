@@ -1,0 +1,114 @@
+body
+{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container
+{
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.wcontainer
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.wcontainer > div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+button
+{
+    background-color:black;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    font-size:15px;
+    border: none;
+    color: white;
+    
+
+}
+button:hover
+{
+    background-color:rgba(233, 225, 225);
+    box-shadow: 2px 2px 2px white;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+input[type="text"]
+{
+    width:200px;
+    height: 46px;
+    font-size:15px ;
+    border: 2px solid;
+    border-color: black;
+}
+
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#result,#weatherResult,#nearby 
+{
+    background-color: rgba(233, 225, 225, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: black;
+    font-size: 18px;
+    display: inline-block;
+    max-width: 90vw;
+    width: auto;
+    text-align: left;
+    word-wrap: break-word;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: justify;;
+}
+
+
+
+.nearby h3
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color:black;
+    margin-top: 1px;
+}
+
+#result:empty,
+#weatherResult:empty,
+#nearby:empty 
+{
+    display: none;
+}
+
+.nearby ul
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
